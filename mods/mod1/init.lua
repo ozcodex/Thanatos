@@ -11,6 +11,12 @@ minetest.register_node("mod1:refined_test_block", {
 	groups = {oddly_breakable_by_hand = 2}
 })
 
+minetest.register_node("mod1:test_block_pieces", {
+	description = "Test Block Pieces",
+	tiles = {"test_block_pieces.png"},
+	groups = {oddly_breakable_by_hand = 2}
+})
+
 -- Crafting
 minetest.register_craft({
 	output = "mod1:test_block 2",
@@ -25,6 +31,14 @@ minetest.register_craft({
 		{"default:tree","mod1:refined_test_block"},
 	},
 	replacements = {{"default:tree","default:leaves"}}
+})
+
+minetest.register_craft({
+	output = "mod1:test_block_pieces 1",
+	recipe = {
+		{"default:stick","mod1:refined_test_block"},
+	},
+	replacements = {{"default:stick","default:stick"}}
 })
 
 minetest.register_craft({
