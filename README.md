@@ -14,7 +14,7 @@ to create things avoiding the use of graphical interfaces.
 To-do:
 - create a new storage system to replace chests
 - modify dungeon_loot mod to use new storage system
-- disable crafting screen
+- ~~ disable crafting screen ~~
 
 ## Licensing
 
