@@ -15,6 +15,8 @@ To-do:
 - create a new storage system to replace chests
 - modify dungeon_loot mod to use new storage system
 - ~~ disable crafting screen ~~
+- ~~ show character background instead of inventory ~~
+- Add a random background to the character
 
 ## Licensing
 
